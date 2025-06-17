@@ -12,11 +12,12 @@ Este proyecto demuestra cómo implementar navegación en una aplicación React u
 
 ---
 
-## 🧱 1. Crear un nuevo proyecto React
+## 🧱 1. Crear un nuevo proyecto React con Vite
 
 ```bash
-npx create-react-app mi-proyecto-routing
+npm create vite@latest mi-proyecto-routing -- --template react
 cd mi-proyecto-routing
+npm install
 ```
 
 ---
@@ -131,7 +132,7 @@ export default App;
 ## 🧪 6. Ejecutar el proyecto
 
 ```bash
-npm start
+npm run dev
 ```
 
 ---
